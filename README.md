@@ -1,1 +1,1 @@
-Mesoscale Convective System Development, Synoptic Drivers, and Forecast Challenges of a Catastrophic Coastal Rainfall Event in West Africa.
+Repository for data and code used to produce Figures for article "Mesoscale Convective System Development, Synoptic Drivers, and Forecast Challenges of a Catastrophic Coastal Rainfall Event in West Africa" Salifou et al. 2025.
