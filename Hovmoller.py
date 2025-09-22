@@ -1,17 +1,11 @@
 from matplotlib import gridspec
 plt.rcParams['text.usetex'] = True
 
-
 vtimes = LLWS_event.time.values.astype('datetime64[m]')#.astype('O')
 lons = LLWS_event.longitude.values
 
-
-
-
 fig = plt.figure(figsize=(10, 8), dpi=300)
 gs = gridspec.GridSpec(nrows=1, ncols=2, wspace = 0.1, hspace=0.04)
-
-
 
 ##############################################################################################################################
 ax = fig.add_subplot(gs[0,0])
@@ -75,5 +69,5 @@ cbar.ax.tick_params(axis = 'both', direction = 'in', labelsize = 10., length = 4
 ax.set_box_aspect(1)
 
 #plt.savefig('/home/salifou/Documents/Passport/REVISON/LLWS_percentile_suppl.png', bbox_inches="tight", dpi=600)
-# plt.savefig('/home/salifou/Documents/Passport/REVISON/LLWS_percentile_suppl.pdf', bbox_inches="tight", dpi=600)
+#plt.savefig('/home/salifou/Documents/Passport/REVISON/LLWS_percentile_suppl.pdf', bbox_inches="tight", dpi=600)
 
